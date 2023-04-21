@@ -6,7 +6,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.dispatcher.filters import Text
 from aiogram.types import Message
 from aiogram.utils import executor
-from TOKEN import TOKEN
+from TOKEN.TOKEN import TOKEN
 
 
 BOT_TOKEN: str = TOKEN

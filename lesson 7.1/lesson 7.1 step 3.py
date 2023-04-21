@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher
 from aiogram.types import Message
 from aiogram.utils import executor
-from TOKEN import TOKEN
+from TOKEN.TOKEN import TOKEN
 
 
 # Вместо BOT TOKEN HERE нужно вставить токен вашего бота, полученный у @BotFather

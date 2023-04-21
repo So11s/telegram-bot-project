@@ -1,7 +1,7 @@
 import requests
 import time
 
-from TOKEN import TOKEN
+from TOKEN.TOKEN import TOKEN
 
 API_URL: str = "https://api.telegram.org/bot"
 BOT_TOKEN: str = TOKEN
