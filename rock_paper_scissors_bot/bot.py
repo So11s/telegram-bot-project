@@ -14,7 +14,7 @@ async def main():
     # Конфигурируем логирование
     logging.basicConfig(
         level=logging.INFO,
-        format='%(filename)s:%(lineno)d #%(levelname)-8s '
+        format='%(filename)s:%(lineno)d #%(levelname)s '
                '[%(asctime)s] - %(name)s - %(message)s'
     )
     # Выводим в консоль информацию о начале работе бота
