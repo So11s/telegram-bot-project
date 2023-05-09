@@ -11,7 +11,7 @@ router: Router = Router()
 
 @router.message(CommandStart())
 async def process_start_command(message: Message):
-    await message.reply(text=LEXICON_RU['/start'], reply_markup=yes_no_kb)
+    await message.reply(text=LEXICON_RU['/start'].format(message.from_user.username), reply_markup=yes_no_kb)
 
 
 @router.message(Command(commands=['help']))
